@@ -20,15 +20,16 @@ while True:
         y1 = y
         
     screen.moveTo(x1, y1)
+   
+    # Repeat the same every 30 seconds
+    time.sleep(30)
     
-    # I choose 700,300 because the location was blank. 
-    # Additionally, clicking is required to keep SKPYE's status online. 
+ # I choose 700,300 because the location was blank. 
+ # Additionally, clicking is required to keep SKPYE's status online, a new loop to do the same
     
-    
+while True:
     screen.click(700, 300, button='left')
-    # Repeat the same every 60 seconds
     time.sleep(60)
-    
 
 
 
