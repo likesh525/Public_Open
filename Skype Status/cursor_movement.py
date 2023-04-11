@@ -30,7 +30,7 @@ while True:
  # Additionally, clicking is required to keep SKPYE's status online, a new loop to do the same
     while True:
         screen.click(700, 300, button='left')
-        time.sleep(6)
+        time.sleep(60)
 
 
 
