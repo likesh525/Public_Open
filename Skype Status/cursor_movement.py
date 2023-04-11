@@ -26,11 +26,11 @@ while True:
     
  # I choose 700,300 because the location was blank. 
  # Additionally, clicking is required to keep SKPYE's status online, a new loop to do the same
-    
-while True:
-    screen.click(700, 300, button='left')
-    time.sleep(60)
-
+ # I choose 700,300 because the location was blank. 
+ # Additionally, clicking is required to keep SKPYE's status online, a new loop to do the same
+    while True:
+        screen.click(700, 300, button='left')
+        time.sleep(6)
 
 
 
